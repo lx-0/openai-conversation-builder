@@ -1,11 +1,11 @@
 {
-  "name": "openai-increase-usage",
+  "name": "openai-conversation-builder",
   "version": "1.0.0",
   "type": "module",
-  "description": "Increase OpenAI API usage",
-  "main": "spend_money.js",
+  "description": "OpenAI Conversation Builder",
+  "main": "index.js",
   "scripts": {
-    "start": "node spend_money.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Alex Wegener, lx-0",
