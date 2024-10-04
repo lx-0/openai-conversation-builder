@@ -15,12 +15,12 @@ const apiUrl = 'https://api.openai.com/v1/chat/completions';
 const initialQuestion = 'How will AI shape the future of the world?';
 // const initialQuestion = 'What is the history behind the development of the internet?';
 // const initialQuestion = 'Tell me something interesting about technology.';
+const language = 'German'; // Language of the conversation
 const numberOfMessages = 10; // Number of conversation turns
-const numberOfWordsToDisplay = 10; // Number of words to display per message
+const numberOfWordsToDisplay = 20; // Number of words to display per message
 
-const answeringAgentSystemInstructions = "Please respond briefly and concisely to the user's question.";
-const questioningAgentFollowUpPrompt =
-  'Based on the previous conversation, generate a curious follow-up question that continues the discussion in an engaging way.';
+const answeringAgentSystemInstructions = `Please respond briefly and concisely to the user's question. Respond in ${language}.`;
+const questioningAgentFollowUpPrompt = `Based on the previous conversation, generate a curious follow-up question that continues the discussion in an engaging way. Only include the question in your response. Respond in ${language}.`;
 
 // Function to generate a unique conversation ID
 function generateConversationId() {
