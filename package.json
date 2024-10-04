@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "type": "module",
   "description": "OpenAI Conversation Builder",
-  "main": "index.js",
+  "main": "conversation_builder.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node conversation_builder.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Alex Wegener, lx-0",
